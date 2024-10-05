@@ -12,3 +12,5 @@ E2016 = etnicidad
 E2015 = raza
 E3008_PT = redistribución
 E3013_LR_CSES =  izq-der cses
+
+EL CUESTIONARIO: https://cses.org/wp-content/uploads/2023/07/PER_2021_Spanish.pdf
