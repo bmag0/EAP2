@@ -1,0 +1,38 @@
+```{r}
+library(dplyr)
+
+cses5_peru <- cses5 %>% 
+  filter(E1006_UNALPHA3 == "PER")
+```
+
+```{r}
+cses5_peru <- cses5_peru[, c("E3013_PR_1", "E3008", "E3004_2", "E3004_7", "E3001", "E2005", "E2008", "E2016", "E2015", "E3008_PT", "E3013_LR_CSES", "E3013_LR_MARPOR")]
+```
+
+```{r}
+library(dplyr)
+
+cses5_peru <- cses5_peru %>%
+  rename(
+    presidente = E3013_PR_1,
+    ingresos = E3008,
+    gente = E3004_2,
+    poderosos = E3004_7,
+    interés = E3001,
+    sindicato = E2005,
+    clase = E2008,
+    etnicidad = E2016,
+    raza = E2015,
+    redistribución = E3008_PT,
+    `izq-der cses` = E3013_LR_CSES,
+    `izq-der marpor` = E3013_LR_MARPOR
+  )
+```
+
+```{r}
+library(dplyr)
+
+cses5_peru <- cses5_peru %>% 
+  select(-`izq-der marpor`)
+```
+
