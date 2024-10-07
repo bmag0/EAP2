@@ -37,7 +37,6 @@
 |                  |               | 999997 = SE NEGO A RESPONDER                                  | SE NEGO A RESPONDER      |                                          |
 |                  |               | 999998 = NO SABE                                             | NO SABE                  |                                          |
 |                  |               | 999999 = NO VOTÓ                                            | NO VOTÓ                  |                                          |
-
 |------------------|---------------|----------------------------------------------------------------|---------------------------|----------------------------------------------------------------------------|
 | E3008            | desigualdad    | 1 = TOTALMENTE DE ACUERDO                                     | TOTALMENTE DE ACUERDO     | sobre la afirmación “el gobierno debería adoptar medidas para reducir la desigualdad de ingresos” |
 |                  |               | 2 = PARCIALMENTE DE ACUERDO                                   | PARCIALMENTE DE ACUERDO   |                                                                            |
