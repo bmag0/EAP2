@@ -1,0 +1,237 @@
+```{r}
+library(dplyr)
+
+cses5_peru <- cses5 %>% 
+  filter(E1006_UNALPHA3 == "PER")
+```
+
+```{r}
+cses5_peru <- cses5_peru[, c("E3013_PR_1", "E3008", "E3004_2", "E3004_7", "E3001", "E2005", "E3020", "E2016")]
+```
+
+```{r}
+library(dplyr)
+
+cses5_peru <- cses5_peru %>%
+  rename(
+    presidente = E3013_PR_1,
+    desigualdad = E3008,
+    elitesgente = E3004_2,
+    elitespoderosos = E3004_7,
+    interespol = E3001,
+    sindicato = E2005,
+    ideologia = E3020,
+    etnicidad = E2016
+  )
+```
+
+```{r}
+cses5_peru <- cses5_peru %>%
+  mutate(presidente = case_when(
+    presidente == 604001 ~ "CASTILLO",
+    presidente == 604002 ~ "FUJIMORI",
+    presidente == 604003 ~ "LOPEZALIAGA",
+    presidente == 604004 ~ "DESOTO",
+    presidente == 604005 ~ "LESCANO",
+    presidente == 604006 ~ "VERONIKA",
+    presidente == 604007 ~ "ACUNA",
+    presidente == 604008 ~ "FORSYTH",
+    presidente == 604009 ~ "URRESTI",
+    presidente == 604010 ~ "GUZMAN",
+    presidente == 604011 ~ "BEINGOLEA",
+    presidente == 604012 ~ "SALAVERRY",
+    presidente == 604013 ~ "HUMALA",
+    presidente == 604014 ~ "VEGA",
+    presidente == 604015 ~ "GALVEZ",
+    presidente == 604016 ~ "ARANA",
+    presidente == 604017 ~ "SANTOS",
+    presidente == 604018 ~ "ALCANTARA",
+    presidente == 604019 ~ "ATAUCUSI",
+    presidente == 604020 ~ "ANGULO",
+    presidente == 604021 ~ "VILCHEZ",
+    presidente == 604022 ~ "TOLEDO",
+    presidente == 604023 ~ "OLIVERA",
+    presidente == 604024 ~ "ANTERO",
+    presidente == 999988 ~ "NINGUNO",
+    presidente == 999989 ~ "INDEPENDIENTE",
+    presidente == 999990 ~ "OTRO IZQUIERDA",
+    presidente == 999991 ~ "OTRO DERECHA",
+    presidente == 999992 ~ "OTRO INDETERMINADO",
+    presidente == 999993 ~ "NULO o VICIADO",
+    presidente == 999995 ~ "NO APLICABLE",
+    presidente == 999996 ~ "NO APLICABLE",
+    presidente == 999997 ~ "SE NEGO A RESPONDER",
+    presidente == 999998 ~ "NO SABE",
+    presidente == 999999 ~ "NO VOTO",
+    TRUE ~ NA_character_
+  ))
+```
+
+```{r}
+cses5_peru <- cses5_peru %>%
+  mutate(etnicidad = case_when(
+    etnicidad == 1 ~ "QUECHUA",
+    etnicidad == 2 ~ "AYMARA",
+    etnicidad == 3 ~ "AMAZONICO",
+    etnicidad == 4 ~ "NEGRO",
+    etnicidad == 5 ~ "ZAMBOMULATO",
+    etnicidad == 6 ~ "BLANCO",
+    etnicidad == 7 ~ "MESTIZO",
+    etnicidad == 996 ~ "OTRA",
+    etnicidad == 997 ~ "SE NEGO A RESPONDER",
+    etnicidad == 998 ~ "NO SABE",
+    etnicidad == 999 ~ "N/A",
+    TRUE ~ NA_character_
+  ))
+```
+
+```{r}
+cses5_peru <- cses5_peru %>%
+  mutate(ideologia = case_when(
+    ideologia == 0 ~ "EXTREMADAMENTE IZQUIERDA",
+    ideologia == 1 ~ "FUERTEMENTE IZQUIERDA",
+    ideologia == 2 ~ "PROMEDIO IZQUIERDA",
+    ideologia == 3 ~ "MODERADAMENTE IZQUIERDA",
+    ideologia == 4 ~ "CENTRO IZQUIERDA",
+    ideologia == 5 ~ "CENTRO",
+    ideologia == 6 ~ "CENTRO DERECHA",
+    ideologia == 7 ~ "MODERADAMENTE DERECHA",
+    ideologia == 8 ~ "PROMEDIO DERECHA",
+    ideologia == 9 ~ "FUERTEMENTE DERECHA",
+    ideologia == 10 ~ "EXTREMADAMENTE DERECHA",
+    ideologia == 95 ~ "NO SABE QUE SIGNIFICA",
+    ideologia == 97 ~ "SE NEGO A RESPONDER",
+    ideologia == 98 ~ "NO SABE DONDE UBICARSE EN EL ESPECTRO",
+    ideologia == 99 ~ "N/A",
+    TRUE ~ NA_character_
+  ))
+```
+
+```{r}
+cses5_peru <- cses5_peru %>%
+  mutate(sindicato = case_when(
+    sindicato == 0 ~ "NO PERTENECE",
+    sindicato == 1 ~ "PERTENECE",
+    sindicato == 7 ~ "SE NEGO A RESPONDER",
+    sindicato == 8 ~ "NO SABE",
+    sindicato == 9 ~ "N/A",
+    TRUE ~ NA_character_
+  ))
+```
+
+
+```{r}
+cses5_peru <- cses5_peru %>%
+  mutate(izqderpresidente = case_when(
+    presidente == "CASTILLO" ~ 1,
+    presidente == "FUJIMORI" ~ 8,
+    presidente == "LOPEZALIAGA" ~ 9,
+    presidente == "DESOTO" ~ 9,
+    presidente == "LESCANO" ~ 5,
+    presidente == "VERONIKA" ~ 2,
+    presidente == "ACUNA" ~ 6,
+    presidente == "FORSYTH" ~ 6,
+    presidente == "URRESTI" ~ 6,
+    presidente == "GUZMAN" ~ 5,
+    presidente == "BEINGOLEA" ~ 8,
+    presidente == "SALAVERRY" ~ 6,
+    presidente == "HUMALA" ~ 2,
+    presidente == "VEGA" ~ 2,
+    presidente == "GALVEZ" ~ 2,
+    presidente == "ARANA" ~ 2,
+    presidente == "SANTOS" ~ 6,
+    presidente == "ALCANTARA" ~ 2,
+    presidente == "ATAUCUSI" ~ 2,
+    presidente == "ANGULO" ~ 6,
+    presidente == "VILCHEZ" ~ 6,
+    presidente == "TOLEDO" ~ 5,
+    presidente == "OLIVERA" ~ 5,
+    presidente == "ANTERO" ~ 8,
+    presidente == "NINGUNO" ~ NA,
+    presidente == "INDEPENDIENTE" ~ NA,
+    presidente == "OTRO IZQUIERDA" ~ 2,
+    presidente == "OTRO DERECHA" ~ 8,
+    presidente == "OTRO INDETERMINADO" ~ NA,
+    presidente == "NULO o VICIADO" ~ NA,
+    presidente == "NO APLICABLE" ~ NA,
+    presidente == "SE NEGO A RESPONDER" ~ NA,
+    presidente == "NO SABE" ~ NA,
+    presidente == "NO VOTO" ~ NA,
+    TRUE ~ NA_real_
+  ))
+
+```
+
+```{r}
+cses5_peru <- cses5_peru %>%
+  mutate(ideologiapresidente = case_when(
+    izqderpresidente >= 0 & izqderpresidente <= 3 ~ "IZQUIERDA",
+    izqderpresidente >= 5 & izqderpresidente <= 6 ~ "CENTRO DERECHA",
+    izqderpresidente >= 8 & izqderpresidente <= 10 ~ "DERECHA",
+    TRUE ~ NA_character_
+  ))
+```
+
+```{r}
+cses5_peru <- cses5_peru %>%
+  mutate(interespol = case_when(
+    interespol == 1 ~ "MUY INTERESADO",
+    interespol == 2 ~ "ALGO INTERESADO",
+    interespol == 3 ~ "POCO INTERESADO",
+    interespol == 4 ~ "NADA INTERESADO",
+    interespol == 7 ~ "SE NEGO A RESPONDER",
+    interespol == 8 ~ "NO SABE",
+    interespol == 9 ~ "N/A",
+    TRUE ~ NA_character_
+  ))
+```
+
+```{r}
+cses5_peru <- cses5_peru %>%
+  mutate(elitespoderosos = case_when(
+    elitespoderosos == 1 ~ "TOTALMENTE DE ACUERDO",
+    elitespoderosos == 2 ~ "PARCIALMENTE DE ACUERDO",
+    elitespoderosos == 3 ~ "NI DE ACUERDO NI EN DESACUERDO",
+    elitespoderosos == 4 ~ "PARCIALMENTE EN DESACUERDO",
+    elitespoderosos == 5 ~ "TOTALMENTE EN DESACUERDO",
+    elitespoderosos == 7 ~ "SE NEGO A RESPONDER",
+    elitespoderosos == 8 ~ "NO SABE",
+    elitespoderosos == 9 ~ "N/A",
+    TRUE ~ NA_character_
+  ))
+```
+
+```{r}
+cses5_peru <- cses5_peru %>%
+  mutate(elitesgente = case_when(
+    elitesgente == 1 ~ "TOTALMENTE DE ACUERDO",
+    elitesgente == 2 ~ "PARCIALMENTE DE ACUERDO",
+    elitesgente == 3 ~ "NI DE ACUERDO NI EN DESACUERDO",
+    elitesgente == 4 ~ "PARCIALMENTE EN DESACUERDO",
+    elitesgente == 5 ~ "TOTALMENTE EN DESACUERDO",
+    elitesgente == 7 ~ "SE NEGO A RESPONDER",
+    elitesgente == 8 ~ "NO SABE",
+    elitesgente == 9 ~ "N/A",
+    TRUE ~ NA_character_
+  ))
+```
+
+```{r}
+cses5_peru <- cses5_peru %>%
+  mutate(desigualdad = case_when(
+    desigualdad == 1 ~ "TOTALMENTE DE ACUERDO",
+    desigualdad == 2 ~ "PARCIALMENTE DE ACUERDO",
+    desigualdad == 3 ~ "NI DE ACUERDO NI EN DESACUERDO",
+    desigualdad == 4 ~ "PARCIALMENTE EN DESACUERDO",
+    desigualdad == 5 ~ "TOTALMENTE EN DESACUERDO",
+    desigualdad == 7 ~ "SE NEGO A RESPONDER",
+    desigualdad == 8 ~ "NO SABE",
+    desigualdad == 9 ~ "N/A",
+    TRUE ~ NA_character_
+  ))
+```
+
+```{r}
+write.csv(cses5_peru, "cses5_peru.csv", row.names = FALSE)
+```
+
