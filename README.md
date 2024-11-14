@@ -26,58 +26,58 @@
 |                  |               | 604022 = TOLEDO (PERU POSIBLE, no participó)                  | TOLEDO                   |                                          |
 |                  |               | 604023 = FERNANDO OLIVERA (FRENTE ESPERANZA, postulación improcedente) | OLIVERA                 |                                          |
 |                  |               | 604024 = ANTERO FLORES ARAOZ (PARTIDO ORDEN, no participó)    | ANTERO                   |                                          |
-|                  |               | 999988 = NINGUNO                                               | NINGUNO                  |                                          |
-|                  |               | 999989 = INDEPENDIENTE                                        | INDEPENDIENTE            |                                          |
+|                  |               | 999988 = NINGUNO                                               | NA                  |                                          |
+|                  |               | 999989 = INDEPENDIENTE                                        | NA            |                                          |
 |                  |               | 999990 = OTRO IZQUIERDA                                       | OTRO IZQUIERDA           |                                          |
 |                  |               | 999991 = OTRO DERECHA                                         | OTRO DERECHA             |                                          |
-|                  |               | 999992 = OTRO INDETERMINADO                                  | OTRO INDETERMINADO      |                                          |
-|                  |               | 999993 = NULO o VICIADO                                      | NULO o VICIADO           |                                          |
-|                  |               | 999995 = NO APLICABLE                                         | NO APLICABLE             |                                          |
-|                  |               | 999996 = NO APLICABLE                                         | NO APLICABLE             |                                          |
-|                  |               | 999997 = SE NEGO A RESPONDER                                  | SE NEGO A RESPONDER      |                                          |
-|                  |               | 999998 = NO SABE                                             | NO SABE                  |                                          |
-|                  |               | 999999 = NO VOTÓ                                            | NO VOTÓ                  |                                          |
+|                  |               | 999992 = OTRO INDETERMINADO                                  | NA      |                                          |
+|                  |               | 999993 = NULO o VICIADO                                      | NA           |                                          |
+|                  |               | 999995 = NO APLICABLE                                         | NA             |                                          |
+|                  |               | 999996 = NO APLICABLE                                         | NA             |                                          |
+|                  |               | 999997 = SE NEGO A RESPONDER                                  | NA      |                                          |
+|                  |               | 999998 = NO SABE                                             | NA                  |                                          |
+|                  |               | 999999 = NO VOTÓ                                            | NA                  |                                          |
 |------------------|---------------|----------------------------------------------------------------|---------------------------|----------------------------------------------------------------------------|
 | E3008            | desigualdad    | 1 = TOTALMENTE DE ACUERDO                                     | TOTALMENTE DE ACUERDO     | sobre la afirmación “el gobierno debería adoptar medidas para reducir la desigualdad de ingresos” |
 |                  |               | 2 = PARCIALMENTE DE ACUERDO                                   | PARCIALMENTE DE ACUERDO   |                                                                            |
 |                  |               | 3 = NI DE ACUERDO NI EN DESACUERDO                            | NI DE ACUERDO NI EN DESACUERDO |                                                                         |
 |                  |               | 4 = PARCIALMENTE EN DESACUERDO                                | PARCIALMENTE EN DESACUERDO |                                                                            |
 |                  |               | 5 = TOTALMENTE EN DESACUERDO                                  | TOTALMENTE EN DESACUERDO   |                                                                            |
-|                  |               | 7 = SE NEGO A RESPONDER                                       | SE NEGO A RESPONDER       |                                                                            |
-|                  |               | 8 = NO SABE                                                  | NO SABE                  |                                                                            |
-|                  |               | 9 = N/A                                                     | N/A                       |                                                                            |
+|                  |               | 7 = SE NEGO A RESPONDER                                       | NA       |                                                                            |
+|                  |               | 8 = NO SABE                                                  | NA                  |                                                                            |
+|                  |               | 9 = N/A                                                     | NA                       |                                                                            |
 |------------------|----------------|----------------------------------------------------------------|---------------------------|----------------------------------------------------------------------------|
 | E3004_2          | elitesgente     | 1 = TOTALMENTE DE ACUERDO                                     | TOTALMENTE DE ACUERDO     | sobre la afirmación “las élites políticas no se preocupan por la gente”   |
 |                  |                | 2 = PARCIALMENTE DE ACUERDO                                   | PARCIALMENTE DE ACUERDO   |                                                                            |
 |                  |                | 3 = NI DE ACUERDO NI EN DESACUERDO                            | NI DE ACUERDO NI EN DESACUERDO |                                                                         |
 |                  |                | 4 = PARCIALMENTE EN DESACUERDO                                | PARCIALMENTE EN DESACUERDO |                                                                            |
 |                  |                | 5 = TOTALMENTE EN DESACUERDO                                  | TOTALMENTE EN DESACUERDO   |                                                                            |
-|                  |                | 7 = SE NEGO A RESPONDER                                       | SE NEGO A RESPONDER       |                                                                            |
-|                  |                | 8 = NO SABE                                                  | NO SABE                  |                                                                            |
-|                  |                | 9 = N/A                                                     | N/A                       |                                                                            |
+|                  |                | 7 = SE NEGO A RESPONDER                                       | NA       |                                                                            |
+|                  |                | 8 = NO SABE                                                  | NA                  |                                                                            |
+|                  |                | 9 = N/A                                                     | NA                       |                                                                            |
 |------------------|-------------------|----------------------------------------------------------------|---------------------------|----------------------------------------------------------------------------|
 | E3004_7          | elitespoderosos    | 1 = TOTALMENTE DE ACUERDO                                     | TOTALMENTE DE ACUERDO     | sobre la afirmación “las élites políticas solo se preocupan por los intereses de los ricos y poderosos” |
 |                  |                   | 2 = PARCIALMENTE DE ACUERDO                                   | PARCIALMENTE DE ACUERDO   |                                                                            |
 |                  |                   | 3 = NI DE ACUERDO NI EN DESACUERDO                            | NI DE ACUERDO NI EN DESACUERDO |                                                                         |
 |                  |                   | 4 = PARCIALMENTE EN DESACUERDO                                | PARCIALMENTE EN DESACUERDO |                                                                            |
 |                  |                   | 5 = TOTALMENTE EN DESACUERDO                                  | TOTALMENTE EN DESACUERDO   |                                                                            |
-|                  |                   | 7 = SE NEGO A RESPONDER                                       | SE NEGO A RESPONDER       |                                                                            |
-|                  |                   | 8 = NO SABE                                                  | NO SABE                  |                                                                            |
-|                  |                   | 9 = N/A                                                     | N/A                       |                                                                            |
+|                  |                   | 7 = SE NEGO A RESPONDER                                       | NA       |                                                                            |
+|                  |                   | 8 = NO SABE                                                  | NA                  |                                                                            |
+|                  |                   | 9 = N/A                                                     | NA                       |                                                                            |
 |------------------|---------------|------------------------------------------------|---------------------|------------------------------------|
 | E3001            | interespol    | 1 = MUY INTERESADO                           | MUY INTERESADO      | grado de interés en política       |
 |                  |               | 2 = ALGO INTERESADO                         | ALGO INTERESADO     |                                    |
 |                  |               | 3 = POCO INTERESADO                         | POCO INTERESADO     |                                    |
 |                  |               | 4 = NADA INTERESADO                         | NADA INTERESADO     |                                    |
-|                  |               | 7 = SE NEGO A RESPONDER                     | SE NEGO A RESPONDER |                                    |
-|                  |               | 8 = NO SABE                                 | NO SABE             |                                    |
-|                  |               | 9 = N/A                                     | N/A                 |                                    |
+|                  |               | 7 = SE NEGO A RESPONDER                     | NA |                                    |
+|                  |               | 8 = NO SABE                                 | NA             |                                    |
+|                  |               | 9 = N/A                                     | NA                 |                                    |
 |------------------|---------------|----------------------------------------------|-------------------|-----------------------------|
 | E2005            | sindicato      | 0 = NO PERTENECE                           | NO PERTENECE      | pertenencia a sindicato      |
 |                  |               | 1 = PERTENECE                             | PERTENECE         |                             |
-|                  |               | 7 = SE NEGO A RESPONDER                   | SE NEGO A RESPONDER |                             |
-|                  |               | 8 = NO SABE                               | NO SABE           |                             |
-|                  |               | 9 = N/A                                   | N/A               |                             |
+|                  |               | 7 = SE NEGO A RESPONDER                   | NA |                             |
+|                  |               | 8 = NO SABE                               | NA           |                             |
+|                  |               | 9 = N/A                                   | NA               |                             |
 |------------------|---------------|----------------------------------------------|-------------------|-----------------------------|
 | E3020            | ideologia      | 0 = EXTREMADAMENTE IZQUIERDA               | EXTREMADAMENTE IZQUIERDA | autopercepción ideológica    |
 |                  |               | 1 = FUERTEMENTE IZQUIERDA                   | FUERTEMENTE IZQUIERDA |                             |
@@ -90,10 +90,10 @@
 |                  |               | 8 = PROMEDIO DERECHA                         | PROMEDIO DERECHA   |                             |
 |                  |               | 9 = FUERTEMENTE DERECHA                      | FUERTEMENTE DERECHA |                             |
 |                  |               | 10 = EXTREMADAMENTE DERECHA                  | EXTREMADAMENTE DERECHA |                             |
-|                  |               | 95 = NO SABE QUE SIGNIFICA                  | NO SABE QUE SIGNIFICA |                             |
-|                  |               | 97 = SE NEGO A RESPONDER                    | SE NEGO A RESPONDER |                             |
-|                  |               | 98 = NO SABE DONDE UBICARSE EN EL ESPECTRO | NO SABE DONDE UBICARSE EN EL ESPECTRO |                             |
-|                  |               | 99 = N/A                                     | N/A                 |                             |
+|                  |               | 95 = NO SABE QUE SIGNIFICA                  | NA |                             |
+|                  |               | 97 = SE NEGO A RESPONDER                    | NA |                             |
+|                  |               | 98 = NO SABE DONDE UBICARSE EN EL ESPECTRO | NA |                             |
+|                  |               | 99 = N/A                                     | NA                 |                             |
 |------------------|---------------|----------------|------------------|--------------------------------|
 | E2016            | etnicidad     | 1 = QUECHUA    | QUECHUA          | autoidentificación étnica      |
 |                  |               | 2 = AYMARA     | AYMARA           |                                |
@@ -103,9 +103,9 @@
 |                  |               | 6 = BLANCO     | BLANCO           |                                |
 |                  |               | 7 = MESTIZO    | MESTIZO          |                                |
 |                  |               | 996 = OTRA     | OTRA             |                                |
-|                  |               | 997 = NO RESPONDE | NO RESPONDE    |                                |
-|                  |               | 998 = NO SABE  | NO SABE          |                                |
-|                  |               | 999 = N/A      | N/A              |                                |
+|                  |               | 997 = NO RESPONDE | NA    |                                |
+|                  |               | 998 = NO SABE  | NA          |                                |
+|                  |               | 999 = N/A      | NA              |                                |
 |---------------------|-------------------|-----------------------|-------------|----------------------------------------------------------------------------------------------------------------------------|
 | -                   | izqderpresidente  | CASTILLO              | 1           | categoría ideológica a la que pertenece el presidente/partido (se basó en la evaluación incluida en el Macro Report, según la escala donde 1 es izquierda y 10 es derecha) |
 |                     |                   | FUJIMORI              | 8           |                                                                                                                            |
@@ -131,17 +131,9 @@
 |                     |                   | TOLEDO                | 5           |                                                                                                                            |
 |                     |                   | OLIVERA              | 5           |                                                                                                                            |
 |                     |                   | ANTERO                | 8           |                                                                                                                            |
-|                     |                   | NINGUNO               | N/A         |                                                                                                                            |
-|                     |                   | INDEPENDIENTE         | N/A         |                                                                                                                            |
 |                     |                   | OTRO IZQUIERDA       | 2           |                                                                                                                            |
 |                     |                   | OTRO DERECHA          | 8           |                                                                                                                            |
-|                     |                   | OTRO INDETERMINADO    | N/A         |                                                                                                                            |
-|                     |                   | NULO o VICIADO        | N/A         |                                                                                                                            |
-|                     |                   | NO APLICABLE          | N/A         |                                                                                                                            |
-|                     |                   | SE NEGO A RESPONDER   | N/A         |                                                                                                                            |
-|                     |                   | NO SABE               | N/A         |                                                                                                                            |
-|                     |                   | NO VOTÓ               | N/A         |                                                                                                                            |
 |---------------------------------|-------------------------------|----------------|-------------|---------------------------------------------------------------------------------------------------|
-| -                               | categoriaideologiapresidente  |           | 1,2 = IZQUIERDA   | se agruparon las evaluaciones ideológicas en tres categorías correspondientes a los resultados      |
-|                                 |                               |           | 5,6 = CENTRO DERECHA |                                                                                                   |
-|                                 |                               |           | 8,9 = DERECHA     |                                                                                                   |
+| -                               | categoriaideologiapresidente  |           | 0,3 = IZQUIERDA   | se agruparon las evaluaciones ideológicas en tres categorías correspondientes a los resultados      |
+|                                 |                               |           | 4,6 = CENTRO |                                                                                                   |
+|                                 |                               |           | 7,10 = DERECHA     |                                                                                                   |
