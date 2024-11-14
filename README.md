@@ -183,7 +183,7 @@
 
 | CÓDIGO ORIGINAL  | CÓDIGO NUEVO             | CLAVE ORIGINAL                                             | CLAVE NUEVA                                                 |
 |------------------|--------------------------|-----------------------------------------------------------|------------------------------------------------------------|
-| -                | categoriaideologiapresidente | -                                          | 0,3 = IZQUIERDA  |
-|                  |                          | -                                               | 4,6 = CENTRO                                                            |
-|                  |                          | -                                            | 7,10 = DERECHA                                                           |
+| -                | categoriaideologiapresidente | 0, 1, 2, 3                                          | IZQUIERDA  |
+|                  |                          | 4, 5, 6                                               | CENTRO                                                            |
+|                  |                          | 7, 8, 9, 10                                            | DERECHA                                                           |
 
