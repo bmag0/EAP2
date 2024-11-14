@@ -183,7 +183,7 @@
 
 | CÓDIGO ORIGINAL  | CÓDIGO NUEVO             | CLAVE ORIGINAL                                             | CLAVE NUEVA                                                 |
 |------------------|--------------------------|-----------------------------------------------------------|------------------------------------------------------------|
-| -                | categoriaideologiapresidente | 0,3 = IZQUIERDA                                           | se agruparon las evaluaciones ideológicas en tres categorías correspondientes a los resultados |
-|                  |                          | 4,6 = CENTRO                                              |                                                            |
-|                  |                          | 7,10 = DERECHA                                            |                                                            |
+| -                | categoriaideologiapresidente | -                                          | 0,3 = IZQUIERDA  |
+|                  |                          | -                                               | 4,6 = CENTRO                                                            |
+|                  |                          | -                                            | 7,10 = DERECHA                                                           |
 
