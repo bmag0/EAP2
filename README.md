@@ -1,43 +1,50 @@
 # DICCIONARIO DE CÓDIGOS
 
-| CÓDIGO ORIGINAL  | CÓDIGO NUEVO | CLAVE ORIGINAL                                                  | CLAVE NUEVA               | VARIABLE                                 |
-|------------------|---------------|----------------------------------------------------------------|---------------------------|------------------------------------------|
-| E3013_PR_1       | presidente    | 604001 = PEDRO CASTILLO (PERU LIBRE)                         | CASTILLO                 | Candidato escogido en la primera vuelta  |
-|                  |               | 604002 = KEIKO FUJIMORI (FUERZA POPULAR)                      | FUJIMORI                 |                                          |
-|                  |               | 604003 = RAFAEL LOPEZ ALIAGA (RENOVACIÓN POPULAR)             | LOPEZALIAGA              |                                          |
-|                  |               | 604004 = HERNANDO DE SOTO (AVANZA PAÍS)                       | DESOTO                   |                                          |
-|                  |               | 604005 = YOHNY LESCANO (ACCIÓN POPULAR)                       | LESCANO                  |                                          |
-|                  |               | 604006 = VERONIKA MENDOZA (JUNTOS POR EL PERÚ)                | VERONIKA                 |                                          |
-|                  |               | 604007 = CESAR ACUNA (ALIANZA PARA EL PROGRESO)               | ACUNA                    |                                          |
-|                  |               | 604008 = GEORGE FORSYTH (VICTORIA NACIONAL)                   | FORSYTH                  |                                          |
-|                  |               | 604009 = DANIEL URRESTI (PODEMOS PERU)                        | URRESTI                  |                                          |
-|                  |               | 604010 = JULIO GUZMÁN (PARTIDO MORADO)                        | GUZMAN                   |                                          |
-|                  |               | 604011 = ALBERTO BEINGOLEA (PARTIDO POPULAR CRISTIANO)       | BEINGOLEA                |                                          |
-|                  |               | 604012 = DANIEL SALAVERRY (SOMOS PERU)                        | SALAVERRY                |                                          |
-|                  |               | 604013 = OLLANTA HUMALA (PARTIDO NACIONALISTA PERUANO)        | HUMALA                   |                                          |
-|                  |               | 604014 = JOSE VEGA (UNION POR EL PERU)                        | VEGA                     |                                          |
-|                  |               | 604015 = CIRO GALVEZ (RENACIMIENTO UNIDO NACIONAL RUNA)     | GALVEZ                   |                                          |
-|                  |               | 604016 = MARCO ARANA (FRENTE AMPLIO)                          | ARANA                    |                                          |
-|                  |               | 604017 = RAFAEL SANTOS (PERU PATRIA SEGURA)                  | SANTOS                   |                                          |
-|                  |               | 604018 = ANDRES ALCANTARA (DEMOCRACIA DIRECTA)               | ALCANTARA                |                                          |
-|                  |               | 604019 = EZEQUIEL ATAUCUSI (FRENTE POPULAR AGRÍCOLA DEL PERU FREPAP, no participó) | ATAUCUSI                |                                          |
-|                  |               | 604020 = PEDRO ANGULO (CONTIGO, no participó)                 | ANGULO                   |                                          |
-|                  |               | 604021 = NIDIA VILCHEZ (ALIANZA POPULAR REVOLUCIONARIA AMERICANA APRA, no participó) | VILCHEZ                  |                                          |
-|                  |               | 604022 = TOLEDO (PERU POSIBLE, no participó)                  | TOLEDO                   |                                          |
-|                  |               | 604023 = FERNANDO OLIVERA (FRENTE ESPERANZA, postulación improcedente) | OLIVERA                 |                                          |
-|                  |               | 604024 = ANTERO FLORES ARAOZ (PARTIDO ORDEN, no participó)    | ANTERO                   |                                          |
-|                  |               | 999988 = NINGUNO                                               | NA                  |                                          |
-|                  |               | 999989 = INDEPENDIENTE                                        | NA            |                                          |
-|                  |               | 999990 = OTRO IZQUIERDA                                       | OTRO IZQUIERDA           |                                          |
-|                  |               | 999991 = OTRO DERECHA                                         | OTRO DERECHA             |                                          |
-|                  |               | 999992 = OTRO INDETERMINADO                                  | NA      |                                          |
-|                  |               | 999993 = NULO o VICIADO                                      | NA           |                                          |
-|                  |               | 999995 = NO APLICABLE                                         | NA             |                                          |
-|                  |               | 999996 = NO APLICABLE                                         | NA             |                                          |
-|                  |               | 999997 = SE NEGO A RESPONDER                                  | NA      |                                          |
-|                  |               | 999998 = NO SABE                                             | NA                  |                                          |
-|                  |               | 999999 = NO VOTÓ                                            | NA                  |                                          |
-| E3008            | desigualdad    | 1 = TOTALMENTE DE ACUERDO                                     | 1     | sobre la afirmación “el gobierno debería adoptar medidas para reducir la desigualdad de ingresos” |
+## VARIABLE: PRESIDENTE
+### Candidato escogido en la primera vuelta
+
+| CÓDIGO ORIGINAL  | CÓDIGO NUEVO | CLAVE ORIGINAL                                                  | CLAVE NUEVA               |
+|------------------|---------------|----------------------------------------------------------------|---------------------------|
+| E3013_PR_1       | presidente    | 604001 = PEDRO CASTILLO (PERU LIBRE)                         | CASTILLO                 |
+|                  |               | 604002 = KEIKO FUJIMORI (FUERZA POPULAR)                      | FUJIMORI                 |
+|                  |               | 604003 = RAFAEL LOPEZ ALIAGA (RENOVACIÓN POPULAR)             | LOPEZALIAGA              |
+|                  |               | 604004 = HERNANDO DE SOTO (AVANZA PAÍS)                       | DESOTO                   |
+|                  |               | 604005 = YOHNY LESCANO (ACCIÓN POPULAR)                       | LESCANO                  |
+|                  |               | 604006 = VERONIKA MENDOZA (JUNTOS POR EL PERÚ)                | VERONIKA                 |
+|                  |               | 604007 = CESAR ACUNA (ALIANZA PARA EL PROGRESO)               | ACUNA                    |
+|                  |               | 604008 = GEORGE FORSYTH (VICTORIA NACIONAL)                   | FORSYTH                  |
+|                  |               | 604009 = DANIEL URRESTI (PODEMOS PERU)                        | URRESTI                  |
+|                  |               | 604010 = JULIO GUZMÁN (PARTIDO MORADO)                        | GUZMAN                   |
+|                  |               | 604011 = ALBERTO BEINGOLEA (PARTIDO POPULAR CRISTIANO)       | BEINGOLEA                |
+|                  |               | 604012 = DANIEL SALAVERRY (SOMOS PERU)                        | SALAVERRY                |
+|                  |               | 604013 = OLLANTA HUMALA (PARTIDO NACIONALISTA PERUANO)        | HUMALA                   |
+|                  |               | 604014 = JOSE VEGA (UNION POR EL PERU)                        | VEGA                     |
+|                  |               | 604015 = CIRO GALVEZ (RENACIMIENTO UNIDO NACIONAL RUNA)     | GALVEZ                   |
+|                  |               | 604016 = MARCO ARANA (FRENTE AMPLIO)                          | ARANA                    |
+|                  |               | 604017 = RAFAEL SANTOS (PERU PATRIA SEGURA)                  | SANTOS                   |
+|                  |               | 604018 = ANDRES ALCANTARA (DEMOCRACIA DIRECTA)               | ALCANTARA                |
+|                  |               | 604019 = EZEQUIEL ATAUCUSI (FRENTE POPULAR AGRÍCOLA DEL PERU FREPAP, no participó) | ATAUCUSI                |
+|                  |               | 604020 = PEDRO ANGULO (CONTIGO, no participó)                 | ANGULO                   |
+|                  |               | 604021 = NIDIA VILCHEZ (ALIANZA POPULAR REVOLUCIONARIA AMERICANA APRA, no participó) | VILCHEZ                  |
+|                  |               | 604022 = TOLEDO (PERU POSIBLE, no participó)                  | TOLEDO                   |
+|                  |               | 604023 = FERNANDO OLIVERA (FRENTE ESPERANZA, postulación improcedente) | OLIVERA                 |
+|                  |               | 604024 = ANTERO FLORES ARAOZ (PARTIDO ORDEN, no participó)    | ANTERO                   |
+|                  |               | 999988 = NINGUNO                                               | NA                  |
+|                  |               | 999989 = INDEPENDIENTE                                        | NA            |
+|                  |               | 999990 = OTRO IZQUIERDA                                       | OTRO IZQUIERDA           |
+|                  |               | 999991 = OTRO DERECHA                                         | OTRO DERECHA             |
+|                  |               | 999992 = OTRO INDETERMINADO                                  | NA      |
+|                  |               | 999993 = NULO o VICIADO                                      | NA           |
+|                  |               | 999995 = NO APLICABLE                                         | NA             |
+|                  |               | 999996 = NO APLICABLE                                         | NA             |
+|                  |               | 999997 = SE NEGO A RESPONDER                                  | NA      |
+|                  |               | 999998 = NO SABE                                             | NA                  |
+|                  |               | 999999 = NO VOTÓ                                            | NA                  |
+
+## VARIABLE: DESIGUALDAD
+
+### Sobre la afirmación “el gobierno debería adoptar medidas para reducir la desigualdad de ingresos”
+| E3008            | desigualdad    | 1 = TOTALMENTE DE ACUERDO                                     | 1     |  |
 |                  |               | 2 = PARCIALMENTE DE ACUERDO                                   | 2   |                                                                            |
 |                  |               | 3 = NI DE ACUERDO NI EN DESACUERDO                            | 3 |                                                                         |
 |                  |               | 4 = PARCIALMENTE EN DESACUERDO                                | 4 |                                                                            |
