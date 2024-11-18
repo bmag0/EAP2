@@ -89,10 +89,10 @@
 
 | CÓDIGO ORIGINAL  | CÓDIGO NUEVO      | CLAVE ORIGINAL                                              | CLAVE NUEVA                                                 |
 |------------------|-------------------|------------------------------------------------------------|------------------------------------------------------------|
-| E3001            | interespol        | 1 = MUY INTERESADO                                         | MUY INTERESADO                                              |
-|                  |                   | 2 = ALGO INTERESADO                                         | ALGO INTERESADO                                             |
-|                  |                   | 3 = POCO INTERESADO                                         | POCO INTERESADO                                             |
-|                  |                   | 4 = NADA INTERESADO                                         | NADA INTERESADO                                             |
+| E3001            | interespol        | 1 = MUY INTERESADO                                         | 1                                             |
+|                  |                   | 2 = ALGO INTERESADO                                         | 2                                            |
+|                  |                   | 3 = POCO INTERESADO                                         | 3                                             |
+|                  |                   | 4 = NADA INTERESADO                                         | 4                                             |
 |                  |                   | 7 = SE NEGO A RESPONDER                                     | NA                                                         |
 |                  |                   | 8 = NO SABE                                                | NA                                                         |
 |                  |                   | 9 = N/A                                                    | NA                                                         |
@@ -102,8 +102,8 @@
 
 | CÓDIGO ORIGINAL  | CÓDIGO NUEVO      | CLAVE ORIGINAL                            | CLAVE NUEVA                               |
 |------------------|-------------------|------------------------------------------|------------------------------------------|
-| E2005            | sindicato         | 0 = NO PERTENECE                         | NO PERTENECE                             |
-|                  |                   | 1 = PERTENECE                           | PERTENECE                                |
+| E2005            | sindicato         | 0 = NO PERTENECE                         | 0                             |
+|                  |                   | 1 = PERTENECE                           | 1                               |
 |                  |                   | 7 = SE NEGO A RESPONDER                 | NA                                       |
 |                  |                   | 8 = NO SABE                             | NA                                       |
 |                  |                   | 9 = N/A                                 | NA                                       |
