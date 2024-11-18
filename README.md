@@ -147,7 +147,7 @@
 |                  |                   | 999 = N/A                                                   | NA                                                          |
 
 ## VARIABLE: CATEGORÍA IDEOLÓGICA DEL PRESIDENTE/PARTIDO
-### Evaluación ideológica basada en el Macro Report (escala 1 a 10)
+### Evaluación ideológica basada en el Macro Report (escala 0 a 10)
 
 | CÓDIGO ORIGINAL  | CÓDIGO NUEVO      | CLAVE ORIGINAL                                              | CLAVE NUEVA                                                 |
 |------------------|-------------------|------------------------------------------------------------|------------------------------------------------------------|
